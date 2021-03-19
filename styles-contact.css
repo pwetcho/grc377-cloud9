@@ -1,0 +1,199 @@
+/*This is my 377 FoCo Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 377 FoCo Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url(images/flowers-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+	
+}
+
+
+img {
+	border-radius: 0px;
+  }
+
+
+h1 {
+	font-family: raleway, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 1.8em;
+    margin: 0px auto 10px auto;
+    color: #fff;
+}
+
+
+h2 {
+	font-family: raleway, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+    font-size: 1.2em;
+    line-height: 1.4;
+    color: #fff;
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+}
+
+
+p {
+	font-family: raleway, sans-serif;
+	font-weight: 400;
+font-style: normal;
+	font-size: 1em;
+    line-height: 1.6;
+    color: #fff;
+}
+    
+
+  /* Style the top navigation bar */
+ul {
+	list-style-type: none;
+	font-family: raleway, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+    font-size: 1.2em;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #d98943;
+	position: -webkit-sticky; 
+	position: sticky;
+	top: 0;
+  }
+  
+  li {
+	float: left;
+  }
+  
+  li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  li a:hover {
+	background-color: #111;
+  }
+  
+  .active {
+	background-color: #333;
+  }
+  
+.header {
+	padding: 5px;
+	text-align: center;
+	background: #fff;
+	color: white;
+	font-size: 30px;
+  }
+
+
+.center1 {
+    width: 1280px;
+	padding: 2%;
+    margin: 100px auto;
+ 	background: #d98943b9; 
+	text-align: center;
+	border: 2px dashed white;
+}
+
+.center2 {
+    width: 1280px;
+	padding: 2%;
+    margin: 100px auto;
+ 	background: #a3c086d8; 
+	text-align: center;
+	border: 2px dashed white;
+}
+
+     /* Create three unequal columns that floats next to each other */
+.column {
+	float: left;
+	padding: 40px;
+  }
+  
+  /* Left and right column */
+  .column.side {
+	width: 50%;
+  }
+  
+  /* Middle column */
+  .column.middle {
+	width: 25%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+	.column.side, .column.middle {
+	  width: 100%;
+	}
